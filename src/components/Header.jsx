@@ -53,24 +53,13 @@ export default function Header(props) {
             <div className={classes.logo}>
               <Button
                 className={classes.logoButton}
-                onClick={() => history.push('/dashboard')}
+                onClick={() => history.push('/')}
               >
                 <SportsEsportsIcon className={classes.logoIcon} />
                 <Typography variant='h6' component='span'>
                   2048
                 </Typography>
               </Button>
-            </div>
-            <div className={classes.buttons}>
-              {props.create && (
-                <Button
-                  variant='contained'
-                  color='secondary'
-                  onClick={() => history.push('/edit/quiz/')}
-                >
-                  Create Quiz
-                </Button>
-              )}
             </div>
           </Toolbar>
         </AppBar>
