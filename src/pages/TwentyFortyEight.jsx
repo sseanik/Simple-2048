@@ -7,7 +7,6 @@ import Header from '../components/Header';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Square from '../components/Square';
-import Slide from '@material-ui/core/Slide';
 
 const useStyles = makeStyles((theme) => ({
   root: {
