@@ -1,6 +1,12 @@
-# [Simple 2048](https://simple-2048.netlify.app/)
+# Simple 2048
 
-Just a simple implementation of the game 2048 written in ReactJS. The aim of the game is to reach the 2048 tile. Use the up/down/left/right arrow keys to play. 
+## Background
+
+Just a simple implementation of the game 2048 written in ReactJS. The aim of the game is to reach the 2048 tile. When moving tiles around, two of the same numbered tiles can merge and add together.
+
+## [Live Demo](https://simple-2048.netlify.app/)
+
+Use the up/down/left/right arrow keys to play. 
 
 ### Todo
 
