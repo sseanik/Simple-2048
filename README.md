@@ -7,3 +7,4 @@ Just a simple implementation of the game 2048 written in ReactJS. The aim of the
 * Add animations to sliding, merging and new spawning tiles
 * Add a score and high score display
 * Add a restart button
+* Fix an issue where a non sliding/merging move does not spawn a new tile
